@@ -1,12 +1,13 @@
 /* background */
-#wrapper, #content {
+#header, #wrapper, #content {
   background-color: #161F2E !important;
 }
 
 /* base */
 .node,
 #block-user-login, #block-block-35, .user-block, #block-main-login,
-#rightbottom_sidebar {
+#rightbottom_sidebar,
+#footer {
   background-color: #202B41 !important;
   color: #FFF !important;
   border: none !important;
@@ -24,12 +25,10 @@
   background-color: #424A5F !important;
   border: none !important;
 }
-.node .news-info {
-  border-top-color: #374258 !important;
-}
-a.jobs-item {
-  border-bottom-color: #374258 !important;
-}
+
+/* horizontal line */
+.node .news-info { border-top-color: #374258 !important; }
+a.jobs-item { border-bottom-color: #374258 !important; }
 
 /* link */
 .node .content a,
