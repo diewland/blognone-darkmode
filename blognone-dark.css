@@ -1,0 +1,46 @@
+/* background */
+#wrapper, #content {
+  background-color: #161F2E !important;
+}
+
+/* base */
+.node,
+#block-user-login, #block-block-35, .user-block, #block-main-login,
+#rightbottom_sidebar {
+  background-color: #202B41 !important;
+  color: #FFF !important;
+  border: none !important;
+}
+.user-block .user-header,
+.user-block .user-header h2,
+.user-block .signout,
+.node .content-title-box {
+  background-color: #434A5C !important;
+}
+.node .meta .username {
+  color: #FFF !important;
+}
+.node .meta .submitted {
+  background-color: #424A5F !important;
+  border: none !important;
+}
+.node .news-info {
+  border-top-color: #374258 !important;
+}
+a.jobs-item {
+  border-bottom-color: #374258 !important;
+}
+
+/* link */
+.node .content a,
+.node .terms a,
+.node .news-info a,
+#breadcrumb a,
+#rightbottom_sidebar .block a {
+  color: #BDCEE9 !important;
+}
+
+/* img */
+img {
+  filter: brightness(.8) contrast(1.2) !important;
+}

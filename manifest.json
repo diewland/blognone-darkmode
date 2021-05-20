@@ -1,0 +1,11 @@
+{
+  "name": "Blognone Dark Mode",
+  "description": "Read Blognone in Dark Mode",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [{
+    "matches": ["https://*.blognone.com/*"],
+    "css": ["blognone-dark.css"]
+  }]
+}
