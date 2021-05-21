@@ -5,6 +5,7 @@
 
 /* layer 1 */
 .node,
+#above_comments,
 #block-user-login, #block-block-35, .user-block, #block-main-login,
 #rightbottom_sidebar,
 #footer {
@@ -40,9 +41,16 @@ a.jobs-item { border-bottom-color: #374258 !important; }
 .node .content a,
 .node .terms a,
 .node .news-info a,
+.company-name,
 #breadcrumb a,
 #rightbottom_sidebar .block a {
   color: #BDCEE9 !important;
+}
+
+/* sub-text */
+.company-brief,
+.jobs-region {
+  color: #919191 !important;
 }
 
 /* img */
