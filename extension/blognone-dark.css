@@ -1,25 +1,31 @@
-/* background */
+/* layer 0 */
 #header, #wrapper, #content {
   background-color: #161F2E !important;
 }
 
-/* base */
+/* layer 1 */
 .node,
 #block-user-login, #block-block-35, .user-block, #block-main-login,
 #rightbottom_sidebar,
 #footer {
   background-color: #202B41 !important;
-  color: #FFF !important;
+  color: #EEE !important;
   border: none !important;
 }
+
+/* layer 2 */
 .user-block .user-header,
 .user-block .user-header h2,
 .user-block .signout,
-.node .content-title-box {
+.node .content-title-box,
+.node .content-title-box a {
+  color: #EEE !important;
   background-color: #434A5C !important;
 }
+
+/* meta */
 .node .meta .username {
-  color: #FFF !important;
+  color: #EEE !important;
 }
 .node .meta .submitted {
   background-color: #424A5F !important;
@@ -42,4 +48,17 @@ a.jobs-item { border-bottom-color: #374258 !important; }
 /* img */
 img {
   filter: brightness(.8) contrast(1.2) !important;
+}
+
+/* paging */
+.item-list .pager li {
+  background: none !important;
+}
+.item-list .pager li a,
+.item-list .pager li.pager-ellipsis {
+  color: #BDCEE9 !important;
+}
+.item-list .pager li.pager-current {
+  background-color: #BDCEE9 !important;
+  color: #424A5F !important;
 }
