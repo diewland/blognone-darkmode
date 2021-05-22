@@ -34,6 +34,11 @@ textarea {
   border: none !important;
 }
 
+/* top menu */
+#main-menu-links a {
+  color: #FFF !important;
+}
+
 /* meta */
 .node .meta .username,
 .comment-form label {
