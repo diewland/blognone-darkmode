@@ -34,7 +34,8 @@
 }
 
 /* horizontal line */
-.node .news-info { border-top-color: #374258 !important; }
+.node .news-info,
+#page-sharing { border-top-color: #374258 !important; }
 a.jobs-item { border-bottom-color: #374258 !important; }
 
 /* link */
