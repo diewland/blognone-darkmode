@@ -1,5 +1,7 @@
 /* layer 0 */
-#header, #wrapper, #content {
+#header, #wrapper, #content,
+.comment-odd-depth,
+.comment-even-depth ~ .indented {
   background-color: #161F2E !important;
 }
 
@@ -7,6 +9,10 @@
 .node,
 #above_comments,
 #block-user-login, #block-block-35, .user-block, #block-main-login,
+#comments,
+#comment-area,
+.comment-even-depth,
+.comment-odd-depth ~ .indented,
 #rightbottom_sidebar,
 #footer {
   background-color: #202B41 !important;
@@ -19,13 +25,16 @@
 .user-block .user-header h2,
 .user-block .signout,
 .node .content-title-box,
-.node .content-title-box a {
+.node .content-title-box a,
+#comments h2.title {
   color: #EEE !important;
   background-color: #434A5C !important;
+  border: none !important;
 }
 
 /* meta */
-.node .meta .username {
+.node .meta .username,
+.comment-form label {
   color: #EEE !important;
 }
 .node .meta .submitted {
@@ -36,19 +45,25 @@
 /* horizontal line */
 .node .news-info,
 #page-sharing { border-top-color: #374258 !important; }
-a.jobs-item { border-bottom-color: #374258 !important; }
+hr, a.jobs-item { border-bottom-color: #374258 !important; }
 
 /* link */
+/*
 .node .content a,
 .node .terms a,
 .node .news-info a,
+.comment-content a,
+.comment-form a,
 .company-name,
 #breadcrumb a,
 #rightbottom_sidebar .block a {
+*/
+a {
   color: #BDCEE9 !important;
 }
 
 /* sub-text */
+.comment-target,
 .company-brief,
 .jobs-region {
   color: #919191 !important;
@@ -57,6 +72,12 @@ a.jobs-item { border-bottom-color: #374258 !important; }
 /* img */
 img {
   filter: brightness(.8) contrast(1.2) !important;
+}
+
+/* blockquote */
+blockquote {
+  background-color: #FFFFFF1A !important;
+  border-color: #FFFFFF1A !important;
 }
 
 /* paging */
