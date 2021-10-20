@@ -118,3 +118,6 @@ ul.primary li a.active {
 /* track */
 tr.odd:hover, tr.even:hover { background-color: #202B41 !important; }
 tr.odd a:hover, tr.even a:hover { text-decoration: none; }
+
+/* new comment */
+.comment-info-new .username { color: #004266 !important; }
