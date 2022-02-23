@@ -124,3 +124,8 @@ tr.odd a:hover, tr.even a:hover { text-decoration: none; }
   color: #004266 !important;
   font-weight: normal !important;
 }
+
+/* new comment count */
+.news-info .comment-new-comments a {
+  color: #FF9705 !important;
+}
